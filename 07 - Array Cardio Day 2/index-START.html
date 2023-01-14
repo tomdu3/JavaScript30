@@ -75,11 +75,12 @@
     console.log(index);
 
     // comments.splice(index, 1);
-
+    // console.table(comments);
     const newComments = [
       ...comments.slice(0, index),
       ...comments.slice(index + 1)
     ];
+    console.table(newComments);
   </script>
 </body>
 
